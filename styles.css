@@ -1,22 +1,59 @@
 
-h2{
+body{
+    font-family: Poppins;
+  }
+  
+nav{
+  display: flex;
+  
+}
+
+nav h2 {
+  padding: 25px 0 25px 30px; /* Placer le titre*/
+  
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none; /* Pour enlever les puces */
+  padding: 24px; /* Placer la liste*/
+}
+
+nav li {
+  margin-left: 15px; /* Espacer les rubriques */
+}
+
+a{
     color:white;
+    text-decoration: none; /* Enlever le surlignage des liens */
 }
-.bleu{
-    background-color: #0475ba;
-    display: flex;
-    
-}
-
-.space{
-    justify-content: space-between;
+  
+  
+header{
+    text-align: center;
 }
 
-ul, li{
-    display: flex;
-    color: white;
+header, h2{
+      color: #0475ba;
 }
 
-.ul-space{
-    justify-content: space-between;
+
+img {
+    width: 150px;
+    border-radius: 75px;
 }
+
+#accueil{
+    background-color:#0475ba;;
+}
+
+#profil{
+    background-color: #0475ba;;
+}
+
+section {
+    padding: 20px;
+}
+
+

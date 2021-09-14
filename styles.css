@@ -1,0 +1,22 @@
+
+h2{
+    color:white;
+}
+.bleu{
+    background-color: #0475ba;
+    display: flex;
+    
+}
+
+.space{
+    justify-content: space-between;
+}
+
+ul, li{
+    display: flex;
+    color: white;
+}
+
+.ul-space{
+    justify-content: space-between;
+}
